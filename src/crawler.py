@@ -38,10 +38,10 @@ print('\n')
 print('\n')
 
 
-print(soup.title)
+print(soup.title.contents)
 
 
-print(soup.title.parent)
+print(soup.title.parent.contents)
 
 print(soup.title.parent.parent)
 
